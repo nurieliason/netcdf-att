@@ -36,7 +36,7 @@ while i<len(attr_list):
 #		second = "''"
 
 	print('%40s: %s' %(first, second))
-	f.write(first + " : " + str(second) +"\n")
+	f.write(first +  " : " + str(second) +"\n")
  
 	i+=1
 
